@@ -1,7 +1,7 @@
 apiVersion: k8s.nginx.org/v1
 kind: VirtualServer
 metadata:
-  name: app
+  name: app-vs
   namespace: services
 spec:
   host: app.com
